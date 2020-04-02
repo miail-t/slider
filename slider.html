@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style-slider/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="left-control" onclick="slideRun('left')"><img class="arrow" src="./src-slider/arrow-left.png" alt=""> </div>
+        <div class="test">
+            <div id="container_items" class="container_items">
+                <div class="item_1 active"><img class="img" src="./src-slider/item1.webp" alt="1"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item.jpg" alt="4"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item2.webp" alt="2"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item3.webp" alt="3"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item4.webp" alt="4"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item7.webp" alt="4"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item5.jpg" alt="4"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item6.png" alt="4"></div>
+                <div class="item_1"><img class="img" src="./src-slider/item8.webp" alt="4"></div>
+            </div>
+            <div class="slider-row-dots">
+                <div class="slider-row-dots__dot active" onclick="getSlide(0)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(1)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(2)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(3)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(4)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(5)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(6)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(7)"></div>
+                <div class="slider-row-dots__dot" onclick="getSlide(8)"></div>
+            </div>
+        </div>
+
+        <div class="rigth-control" onclick="slideRun('right')"><img class="arrow" src="./src-slider/arrow-right.png" alt=""></div>
+    </div>
+
+
+    <script src="./js-slider/script.js"></script>
+</body>
+
+</html>
